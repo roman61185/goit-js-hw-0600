@@ -12,6 +12,7 @@ console.log(switchButton);
 // клик
 switchButton.addEventListener('click', () => {
   document.body.style.backgroundColor = getRandomHexColor();
+  spanColor.textContent = getRandomHexColor();
 })
 
 
